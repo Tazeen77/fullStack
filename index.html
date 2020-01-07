@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Please LogIn/SignIn </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+
+  
+  <body>
+    <div class="logInBox">
+	<img src="img_avatar.png" class="avatar">
+	<h1>Login Here</h1>
+	<form>
+	    <p>Username</p>
+            <input type="text" placeholder="Enter Username">
+	    <p>Password</p>
+	    <input type="password" id="password" placeholder="Enter Password">
+	    <input type="submit" id="submit" value="Login">
+	    <a href="#">Forgot Password?</a><br> 
+            <a href="#">New User?</a><br>
+            <div id="message">
+            	<h3>Password must contain the following:</h3>
+            	<p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            	<p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            	<p id="number" class="invalid">A <b>number</b></p>
+            	<p id="length" class="invalid">Minimum <b>8 characters</b></p>
+	    </div>
+	</form>
+    </div>
+<script type="text/javascript" src="script.js"></script> 
+ </body>
+ 
+
+</head>
+</html> 
+  
